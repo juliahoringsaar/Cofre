@@ -1,0 +1,19 @@
+$HEXADECIMAL
+
+DB 42
+
+LOAD @0    
+STORE BX 
+
+DIV 2
+MUL 2
+
+CMP BX
+JZ 16
+
+
+LOAD 0
+HLT
+
+LOAD 1
+HLT
